@@ -3,7 +3,7 @@
 ```shell
 wget -qO- 'https://raw.githubusercontent.com/Ovear/Note/master/InstallNET/patch.sh' | bash
 
-bash InstallNET.sh
+bash InstallNET.sh -h
 ```
 
 ### Note
