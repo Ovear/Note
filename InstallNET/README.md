@@ -8,6 +8,8 @@ bash InstallNET.sh -h
 
 ### Note
 
+修改MoeClub的InstallNET脚本
+
 - 修改默认DNS为`1.0.0.1`
 - 修改时区为`UTC+8`
 - Apt修改为与手动安装一致
