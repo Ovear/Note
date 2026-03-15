@@ -39,7 +39,7 @@ sora-images/
 
 Some important points to ensure the script works correctly.
 
-- Playwright doesn't support connecting to a remote Chrome via CDP to download files directly, so you should run this script on your PC directly.
+- Playwright doesn't support connecting to a remote Chrome via CDP to download files, so you should run this script on your PC directly.
 - Make sure **all Chrome windows are closed** before launching Chrome with remote debugging.
 - The Sora interface **must be set to English**.
 - Ensure the page is filtered to **Images** and the URL is:
