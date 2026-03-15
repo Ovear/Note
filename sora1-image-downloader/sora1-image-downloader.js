@@ -1,14 +1,8 @@
 // @ts-check
 
 /**
- * Sora image downloader for an already-open Chrome window.
+ * Sora image downloader for an already-open Chrome window with Chrome Develper Protocol.
  *
- * v6 goals:
- * - keep the library tab parked in place for infinite scrolling
- * - harvest image URLs AND prompt text from the library page
- * - strongly prefer text after the exact Prompt label
- * - avoid poisoning filenames with date/banner/container text
- * - keep small batched test runs predictable
  */
 
 // TODO it's seems unable to keep worker page open after browser close with playwright while Puppeteer can do that
@@ -27,8 +21,8 @@ const CONFIG = {
   cdpUrl: 'http://127.0.0.1:9222',
   libraryUrl: 'https://sora.chatgpt.com/library?type=images',
   outputDir: path.join(__dirname, 'downloads'),
-  manifestPath: path.join(__dirname, 'manifest-batched-v6.json'),
-  screenshotDir: path.join(__dirname, 'debug-shots-v6'),
+  manifestPath: path.join(__dirname, 'manifest-batched.json'),
+  screenshotDir: path.join(__dirname, 'error-screenshots'),
   promptMaxLen: 160,
   perDownloadTimeoutMs: 60000,
   postScrollWaitMs: 1600,
