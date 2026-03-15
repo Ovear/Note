@@ -1,6 +1,6 @@
 # Sora Image Downloader
 
-A simple script-based workflow for downloading images from the Sora library using Node.js and Playwright.  
+A simple script-based workflow for downloading images from the Sora 1 library using Node.js and Playwright.
 This guide walks you through installing dependencies, launching Chrome with remote debugging, and running the downloader script.
 
 ## Project Structure
@@ -208,11 +208,11 @@ Huge shout-out to @chipperpip on Reddit for writing the original script. I had a
 
 This script made it possible for me to salvage my Sora images before Sora 1 shut down.
 
-Although it turns out this was just another one of OpenAI’s many ridiculous lies. You can **simply use a VPN in [countries where Sora 2 is not available](https://help.openai.com/en/articles/12461230-sora-app-and-sora-2-supported-countries) to bypass this meaningless restriction**.
+Although it turns out this was just another one of OpenAI’s many ridiculous lies. You can **simply use a VPN located in [countries where Sora 2 is not available](https://help.openai.com/en/articles/12461230-sora-app-and-sora-2-supported-countries) to bypass this meaningless restriction**.
 
 Anyway, OpenAI’s `Export my data` feature has been broken for years, and they don’t seem willing to fix it.
 
-But the good news is that we can now export data from Sora 1 at any time, which conveniently bypasses their hilarious `Export my data` feature that has basically never worked properly.
+But the good news is that with this script we can now export data from Sora 1 at any time, which conveniently bypasses their hilarious `Export my data` feature that has basically never worked properly.
 
 Things like this keep happening with AI companies, which is why open source is always the best choice. Hopefully we won’t have to write another script in the future just to export our own data manually that something these companies clearly don’t want us to do, even though they’re the ones standing in the way.
 
